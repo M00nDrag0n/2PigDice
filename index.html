@@ -4,26 +4,101 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-  <script src="js/scripts/js"></script>
+  <script src="js/scripts.js"></script>
   <title>Pig Dice</title>
 </head>
 
 <body>
   <div class="container">
-    <form id="input">
-      <label for="q1">This is a question</label>
+    <h2 style='text-align: center'>Pig dice game</h2>
+    <div class="row">
+      <div class="col-lg-6">
+    <form id="roll1">
+      <label for="q1">Player 1</label>
       <input id="q1">
-      <button type="submit">Submit!</button>
+      <button class="roll btn btn-success" type="submit">Roll!</button>
     </form>
+
+      <form id='stopP1'>
+      <button class="stop btn btn-danger" type="submit">Stop!</button>
+    </form>
+    <div id="player1Round"></div>
+    <div id="player1Total"></div>
+  </div>
+
+    <div class="col-lg-6">
+    <form id="roll2">
+      <label for="q2">Player 2</label>
+      <input id="q2">
+      <button class="roll btn btn-success" type="submit">Roll!</button>
+    </form>
+    <form id="stopP2">
+      <button class="stop btn btn-danger" type="submit">Stop!</button>
+    </form>
+    <div id="player2Round"></div>
+    <div id="player2Total"></div>
+  </div>
+</div>
+
+</div>
+
+  <div id="oct">
+    <img src="https://www.seekpng.com/png/detail/24-247262_octopus-silhouette-octopus-png.png">
+  </div>
+  <div id="p1">
+    <img src="https://static.thenounproject.com/png/82268-200.png">
+  </div>
+  <div id="p2">
+    <img src="https://static.thenounproject.com/png/82268-200.png">
+  </div>
+  <div id="p3">
+    <img src="https://static.thenounproject.com/png/82268-200.png">
+  </div>
+  <div id="p4">
+    <img src="https://static.thenounproject.com/png/82268-200.png">
+  </div>
+  <div id="p5">
+    <img src="https://static.thenounproject.com/png/82268-200.png">
+  </div>
+  <div id="p6">
+    <img src="https://static.thenounproject.com/png/82268-200.png">
+  </div>
+  <div id="p7">
+    <img src="https://static.thenounproject.com/png/82268-200.png">
+  </div>
+  <div id="p8">
+    <img src="https://static.thenounproject.com/png/82268-200.png">
+  </div>
+  <div id="light-1">
+      <img src="https://www.pngkit.com/png/full/910-9106287_mq-round-circle-circles-glow-light-lights-lightning.png">
+  </div>
+  <div id="light-2">
+      <img src="https://cdn130.picsart.com/282814636030211.png?r1024x1024">
+  </div>
+  <div id="light-3">
+      <img src="https://www.pngkit.com/png/full/910-9106287_mq-round-circle-circles-glow-light-lights-lightning.png">
+  </div>
+
+  <div id="eye-1">
+    <img src="https://www.sccpre.cat/mypng/full/83-836804_human-eye-iris-texture-mapping-drawing-red-eye.png">
+  </div>
+
+  <div id="eye-2">
+    <img src="https://www.sccpre.cat/mypng/full/83-836804_human-eye-iris-texture-mapping-drawing-red-eye.png">
+  </div>
+
+  <div id="speech">
+    <h4>I AM AN OCTOPLUNGER</h4>
   </div>
 
 </body>
 </html>
 
+
 <!-- <div class=""></div>
 
-<form id=""></form>
-<div id=""></div>
-<div id=""><img src=""></div>
-<label for=""></label><input id="">
-<button type=""></button> -->
+  <form id="stopP2"></form>
+  <div id=""></div>
+  <div id=""><img src=""></div>
+  <label for=""></label><input id="">
+  <button type=""></button> -->

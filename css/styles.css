@@ -1,0 +1,154 @@
+body {
+  font-family: 'Spectral';
+  font-size: 25px;
+  background-image: url("http://ec.europa.eu/research/headlines/news/images/24_01_17_small.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #c7f6ff;
+}
+
+#oct img {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 150px;
+  height: 310px;
+  width: 510px;
+  z-index: 0;
+}
+
+#p1 img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 460px;
+  left: 590px;
+  transform: rotate(210deg);
+  z-index: 2;
+}
+
+#p2 img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 435px;
+  left: 602px;
+  transform: rotate(310deg);
+  z-index: 2;
+}
+
+#p3 img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 315px;
+  left: 540px;
+  transform: rotate(180deg);
+  z-index: 2;
+}
+
+#p4 img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 400px;
+  left: 300px;
+  transform: rotate(30deg);
+  z-index: 2;
+}
+
+#p5 img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 316px;
+  left: 268px;
+  transform: rotate(210deg);
+  z-index: 2;
+}
+
+#p6 img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 415px;
+  left: 119px;
+  transform: rotate(190deg);
+  z-index: 2;
+}
+
+#p7 img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 490px;
+  left: 250px;
+  transform: rotate(180deg);
+  z-index: 2;
+}
+
+#p8 img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 550px;
+  left: 485px;
+  transform: rotate(270deg);
+  z-index: 2;
+}
+
+#light-1 img {
+  height: 392px;
+  width: 512px;
+  position: absolute;
+  top: 280px;
+  left: 205px;
+  z-index: 1;
+}
+
+#light-2 img {
+  height: 402px;
+  width: 612px;
+  position: absolute;
+  top: 282px;
+  left: 100px;
+  z-index: 1;
+}
+
+#light-3 img {
+  height: 522px;
+  width: 682px;
+  position: absolute;
+  top: 232px;
+  left: 70px;
+  z-index: 1;
+}
+
+#eye-1 img {
+  height: 20px;
+  width: 20px;
+  z-index: 3;
+  position: absolute;
+  top: 460px;
+  left: 410px;
+}
+
+#eye-2 img {
+  height: 20px;
+  width: 10px;
+  z-index: 3;
+  position: absolute;
+  top: 460px;
+  left: 455px;
+  transform: rotate(25deg);
+}
+
+#speech {
+  position: absolute;
+  top: 500px;
+  left: 700px;
+  color: red;
+  border-color: black;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 20px;
+}
