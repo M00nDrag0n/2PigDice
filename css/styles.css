@@ -7,13 +7,37 @@ body {
   color: #c7f6ff;
 }
 
+#player2Round {
+  position: absolute;
+  top: 200px;
+  left: 800px;
+}
+
+#player2Total {
+  position: absolute;
+  top: 200px;
+  left: 800px;
+}
+
+#octoplunger, #speech{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+#octoplunger {
+  display: none;
+}
+
+
 #oct img {
   position: absolute;
-  margin-top: 200px;
-  margin-left: 150px;
+  top: 330px;
+  left: 150px;
   height: 310px;
   width: 510px;
-  z-index: 0;
+  z-index: 1;
+
 }
 
 #p1 img {
@@ -23,7 +47,7 @@ body {
   top: 460px;
   left: 590px;
   transform: rotate(210deg);
-  z-index: 2;
+  z-index: 3;
 }
 
 #p2 img {
@@ -33,7 +57,7 @@ body {
   top: 435px;
   left: 602px;
   transform: rotate(310deg);
-  z-index: 2;
+  z-index: 3;
 }
 
 #p3 img {
@@ -43,7 +67,7 @@ body {
   top: 315px;
   left: 540px;
   transform: rotate(180deg);
-  z-index: 2;
+  z-index: 3;
 }
 
 #p4 img {
@@ -53,7 +77,7 @@ body {
   top: 400px;
   left: 300px;
   transform: rotate(30deg);
-  z-index: 2;
+  z-index: 3;
 }
 
 #p5 img {
@@ -63,7 +87,7 @@ body {
   top: 316px;
   left: 268px;
   transform: rotate(210deg);
-  z-index: 2;
+  z-index: 3;
 }
 
 #p6 img {
@@ -73,7 +97,7 @@ body {
   top: 415px;
   left: 119px;
   transform: rotate(190deg);
-  z-index: 2;
+  z-index: 3;
 }
 
 #p7 img {
@@ -83,7 +107,7 @@ body {
   top: 490px;
   left: 250px;
   transform: rotate(180deg);
-  z-index: 2;
+  z-index: 3;
 }
 
 #p8 img {
@@ -93,7 +117,7 @@ body {
   top: 550px;
   left: 485px;
   transform: rotate(270deg);
-  z-index: 2;
+  z-index: 3;
 }
 
 #light-1 img {
@@ -102,7 +126,7 @@ body {
   position: absolute;
   top: 280px;
   left: 205px;
-  z-index: 1;
+  z-index: 2;
 }
 
 #light-2 img {
@@ -111,7 +135,7 @@ body {
   position: absolute;
   top: 282px;
   left: 100px;
-  z-index: 1;
+  z-index: 2;
 }
 
 #light-3 img {
@@ -120,13 +144,13 @@ body {
   position: absolute;
   top: 232px;
   left: 70px;
-  z-index: 1;
+  z-index: 2;
 }
 
 #eye-1 img {
   height: 20px;
   width: 20px;
-  z-index: 3;
+  z-index: 4;
   position: absolute;
   top: 460px;
   left: 410px;
@@ -135,20 +159,54 @@ body {
 #eye-2 img {
   height: 20px;
   width: 10px;
-  z-index: 3;
+  z-index: 4;
   position: absolute;
   top: 460px;
   left: 455px;
   transform: rotate(25deg);
 }
 
-#speech {
+
+#octoSpeech {
+  color: red;
   position: absolute;
   top: 500px;
-  left: 700px;
+  width: 200px;
+  height: 80px;
+
+}
+
+#speech {
+  margin-left: 150px;
+  height: 60px;
+  width: 400px;
+  position: absolute;
+  left: 750px;
   color: red;
   border-color: black;
   border-radius: 50px;
   border-style: solid;
   border-width: 20px;
+}
+
+#speech1 {
+  display: none;
+}
+
+#speech2 {
+  display: none;
+  position: absolute;
+  left: 400px;
+  top: -300px;
+  width: 500px;
+  height: 80px;
+
+}
+#speech3 {
+  display: none;
+  position: absolute;
+  left: 320px;
+  top: 300px;
+  width: 400px;
+  height: 80px;
 }

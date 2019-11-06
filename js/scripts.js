@@ -26,6 +26,7 @@ Player.prototype.stop = function() {
   this.roundScore = 0;
   if (this.totalScore >= 100) {
     console.log('YOU WON');
+    return true;
   // } else if (this.roundScore === 0)
   // $('button').css('disabled')
 }
@@ -62,7 +63,13 @@ $(function() {
 
   $("form#stopP1").submit(function(event) {
     event.preventDefault();
-    player1.stop();
+    if (player1.stop()) {
+      $("#octoplunger").show();
+      $("#speech").show();
+      $("#speech1").toggle();
+      $("#speech2").toggle();
+      $("#speech3").toggle();
+    };
     $("#player1Round").html(player1.roundScore);
     $("#player1Total").html(player1.totalScore);
   })
